@@ -1,0 +1,50 @@
+@import '../global/variables';
+
+.v-overlay__scrim {
+  background: transparent;
+}
+
+.v-dialog .v-card {
+  padding: 30px;
+}
+
+.v-dialog .v-card-title {
+  padding-left: 8px;
+  padding-bottom: 16px;
+}
+
+.v-dialog .v-card-title .text-h5,.dialog-title {
+  color: $grey-1;
+  font-size: $font-popup-section-title!important;
+  font-family: 'Poppins'!important;
+  font-weight: 400;
+}
+
+.v-dialog .v-card-title .text-h6,.dialog-desc {
+  color: $primary-color!important;
+  font-size: $font-section-desc !important;
+  font-family: 'Poppins'!important;
+  font-weight: 400;
+
+}
+.v-dialog .v-card-subtitle .text-h6 {
+  color: $primary-color!important;
+  font-size: $font-section-desc !important;
+  font-weight: 400;
+}
+
+.v-dialog .v-overlay__content {
+  min-width: 600px !important;
+}
+
+.v-dialog .v-card-text {
+  padding: 0 !important;
+}
+.v-dialog .v-container {
+  padding: 8px !important;
+}
+
+.v-dialog .v-overlay__content > .v-card,
+.v-dialog .v-overlay__content > .v-sheet {
+  box-shadow: $dialog-shadow;
+}

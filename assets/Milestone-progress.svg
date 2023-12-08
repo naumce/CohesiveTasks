@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-Artboard_6">
+      <rect width="20" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_6" data-name="Artboard – 6" clip-path="url(#clip-Artboard_6)">
+    <rect width="20" height="20" fill="none"/>
+    <path id="Polygon_167" data-name="Polygon 167" d="M8,0l8,8L8,16,0,8Z" transform="translate(2 2)" fill="#8ac926"/>
+  </g>
+</svg>

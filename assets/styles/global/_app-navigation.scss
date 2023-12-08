@@ -1,0 +1,57 @@
+@import '../global/variables';
+
+.app-bar {
+  background: $grey-4!important;
+  box-shadow: 0 4px 8px 0 #0000001A!important;
+}
+
+
+.app-navigation {
+  border:none!important;
+  .v-list-item{
+    color:$grey-2;
+  }
+  .v-list-item--active {
+    color: $primary-color;
+  }
+  .v-list-item__prepend {
+    padding: 0!important;
+    margin: 0!important;
+    min-width: 40px!important;
+  }
+
+  .v-list-item i {
+    margin-inline-end: 15px!important;
+  }
+
+  #v-list-group--id-projectStatus + .v-list-group__items .v-list-item {
+    padding-inline-start:80px!important;
+  }
+  #v-list-group--id-settings + .v-list-group__items .v-list-item {
+    padding-inline-start:80px!important;
+  }
+  #v-list-group--id-financials + .v-list-group__items .v-list-item {
+    padding-inline-start:80px!important;
+  }
+  .v-list-group__items .v-list-item {
+    padding-inline-start:40px!important;
+  }
+  .custom-icon {
+    margin-inline-end: 15px!important;
+  }
+}
+
+.collapse-icons {
+  .v-list-group__items .v-list-item {
+    padding-inline-start:8px!important;
+  }
+  #v-list-group--id-projectStatus + .v-list-group__items .v-list-item {
+    padding-inline-start:8px!important;
+  }
+  #v-list-group--id-settings + .v-list-group__items .v-list-item {
+    padding-inline-start:8px!important;
+  }
+  #v-list-group--id-financials + .v-list-group__items .v-list-item {
+    padding-inline-start:8px!important;
+  }
+}
